@@ -6,4 +6,4 @@ def dec2bin(n):
     else:
         return dec2bin(n//2) + str(n%2)
 
-print("El numero en binario es: " + dec2bin(int(input("Enter a decimal number"))));
+print("El numero en binario es: " + str(int(dec2bin(int(input("Ingresa un numero: "))))));
